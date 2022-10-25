@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Form By Vikas</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="Author Name" content="VIKAS TRIPATHI">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login Form By <br> Vikas Tripathi</h1>
+        <form action="post()">
+            <div class="text">
+                <input type="text" required name="username">
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="text">
+                <input type="password" required name="password">
+                <span></span>
+                <label>Password</label>
+            </div>
+            <div class="forget">Forget Password ?</div>
+            <input type="submit" value="Login" id="submit">
+            <div class="signup">Not a Member ? <a href="#">Signup</a></div>
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
